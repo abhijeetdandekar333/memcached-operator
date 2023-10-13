@@ -40,6 +40,7 @@ spec:
                   to remove/update
                 type: string
               size:
+                description: Size is the size of memcached deployment
                 format: int32
                 type: integer
             required:
@@ -51,7 +52,7 @@ spec:
               nodes:
                 description: 'INSERT ADDITIONAL STATUS FIELD - define observed state
                   of cluster Important: Run "make" to regenerate code after modifying
-                  this file'
+                  this file Nodes are the names of the memcached pods'
                 items:
                   type: string
                 type: array
