@@ -1,4 +1,5 @@
-module github.com/example/memcached-operator/api/v1alpha1
+module github.com/abhijeetdandekar333/memcached-operator
+
 
 go 1.19
 
